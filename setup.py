@@ -11,6 +11,7 @@ dev_requires = [
 ]
 
 install_requires = [
+    'pbr<2.0.0',
     'iptools>=0.6.1',
     'nodeconductor>0.124.0',
     'python-ceilometerclient>=2.3.0',
