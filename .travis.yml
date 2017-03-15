@@ -5,8 +5,8 @@ before_install:
 - sudo apt-get update -qq
 - sudo apt-get install gcc libffi-dev libldap2-dev libsasl2-dev libssl-dev python-dev
 install:
-- pip install --upgrade  -e .[tests]
+- pip install --upgrade -e .
 - pip install -U 'setuptools<=25.1.1'
-- python setup.py install
+- python setup.py develop
 script:
 - python setup.py test
