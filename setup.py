@@ -38,6 +38,7 @@ setup(
         'dev': dev_requires,
         'tests': tests_requires,
     },
+    test_suite='nodeconductor.server.test_runner.run_tests',
     entry_points={
         'nodeconductor_extensions': (
             'openstack = nodeconductor_openstack.openstack.extension:OpenStackExtension',
