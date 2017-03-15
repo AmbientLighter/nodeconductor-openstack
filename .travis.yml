@@ -7,6 +7,6 @@ before_install:
 install:
 - pip install --upgrade -e .
 - pip install -U 'setuptools<=25.1.1'
-- python setup.py develop
+- python setup.py install
 script:
 - python setup.py test
